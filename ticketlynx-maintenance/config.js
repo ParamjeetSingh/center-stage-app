@@ -12,8 +12,8 @@ const config = require('../config.js')
 
 // })
 
-export const onSaleRef = config.firebase.database().ref('testData')
-// export const onSaleRef = firebase.database().ref('onSale')
+// export const onSaleRef = config.firebase.database().ref('testData')
+export const onSaleRef = firebase.database().ref('onSale')
 //create a firebase ref that serves as a signaling tool for the scrapers to run
 export const signalingRef = config.firebase.database().ref('signalingRef')
 export const reportRef = config.firebase.database().ref('reports')
