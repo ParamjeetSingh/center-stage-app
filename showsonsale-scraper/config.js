@@ -27,7 +27,7 @@ export let headers = {
 
 
 // export const onSaleRef = config.firebase.database().ref('testData')
-export const onSaleRef = firebase.database().ref('onSale')
+export const onSaleRef = config.firebase.database().ref('onSale')
 
 // export const baseURL = 'http://www.showsonsale.com'
 
